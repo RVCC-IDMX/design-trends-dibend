@@ -77,7 +77,7 @@ select {
 
 @font-face {
     font-family: JosefinSans;
-    src: url(../font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+    src: url(/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
 
 body {
