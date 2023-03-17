@@ -77,7 +77,9 @@ select {
 
 @font-face {
     font-family: JosefinSans;
-    src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+    src: url("../fonts/JosefinSans-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/JosefinSans-VariableFont_wght.woff") format("woff"),
+    url("../fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
 }
 
 body {
@@ -87,9 +89,8 @@ body {
     background-color: hsl(309, 63%, 20%);
     color: hsl(168, 79%, 60%);
     background-position: center bottom;
-    font-family: JosefinSans;
-    font-variation-settings: wght 400, wonk 2;
-    font-size: 1rem;
+    font-family: JosefinSans, sans-serif;
+    font-weight: 300;
     text-align: center;
     animation: fade-in-bloom 2s ease-in-out;
 }
