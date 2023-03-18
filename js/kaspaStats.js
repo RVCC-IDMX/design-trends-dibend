@@ -26,7 +26,6 @@ xhr.onreadystatechange = function() {
       bodyElement.scrollHeight, bodyElement.offsetHeight
     );
     const main = document.querySelector("main");
-    console.log(docHeight, main.offsetHeight)
     if(main.offsetHeight < docHeight) {
       main.style.height = docHeight;
     }
