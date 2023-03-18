@@ -8,7 +8,10 @@ function printWorker(worker) {
   const time = new Date(1970, 0, 1);
   time.setUTCSeconds(worker.lastShare - 18000);
   worker.lastShare = time.toLocaleString();
-  newDiv.innerHTML = JSON.stringify(worker, null, 2).replaceAll("\n", "<br><br>");
+  newDiv.innerHTML = JSON.stringify(worker, null, 2).replaceAll("\n", "<br><br>")
+    .replaceAll("{", "")
+    .replaceAll("}", "")
+    .replaceAll("\"", "");
   document.querySelector("main").appendChild(newDiv)
 }
 
