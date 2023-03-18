@@ -158,7 +158,7 @@ img {
 
 .coinmarketcap-currency-widget {
     background-color: hsl(0, 0%, 100%, .1);
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
