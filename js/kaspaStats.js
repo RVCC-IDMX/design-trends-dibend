@@ -28,7 +28,7 @@ xhr.onreadystatechange = function() {
     const main = document.querySelector("main");
     console.log(docHeight, main.offsetHeight)
     if(main.offsetHeight < docHeight) {
-      main.style.height = "100vh";
+      main.style.height = docHeight;
     }
   } 
 };
