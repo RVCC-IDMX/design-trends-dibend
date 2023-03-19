@@ -4,7 +4,6 @@ function printWorker(worker) {
   min = 1;
   max = 30;
   const newDiv = document.createElement("div");
-  newDiv.setAttribute("id", "smallText");
   const time = new Date(1970, 0, 1);
   time.setUTCSeconds(worker.lastShare - 18000);
   worker.lastShare = time.toLocaleString();
