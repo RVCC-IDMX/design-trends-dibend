@@ -86,8 +86,7 @@ select {
 
 body {
     background-image: url("../img/cyberpunk.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
+    background-size: contain;
     background-color: hsl(309, 63%, 20%);
     color: hsl(168, 79%, 60%);
     background-position: center bottom;
