@@ -28,6 +28,12 @@ xhr.onreadystatechange = function() {
     if(main.offsetHeight < docHeight) {
       main.style.height = docHeight;
     }
+    const bgCreditsDiv = document.createElement("div");
+    bgCreditsDiv.innerText = "Background image by Lennon Cheng on Unsplash.com";
+    const ftCreditsDiv = document.createElement("div");
+    ftCreditsDiv.innerText = "Featured image by Midjourney AI";
+    main.appendChild(bgCreditsDiv);
+    main.appendChild(ftCreditsDiv);
   } 
 };
 

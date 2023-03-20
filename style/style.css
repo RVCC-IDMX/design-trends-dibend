@@ -88,6 +88,7 @@ body {
     background-image: url("../img/cyberpunk.jpg");
     background-size: contain;
     background-color: hsl(309, 63%, 20%);
+    text-shadow: .2rem .2rem .2rem hsl(309, 63%, 20%);
     color: hsl(168, 79%, 60%);
     background-position: center bottom;
     font-family: JosefinSans, sans-serif;
